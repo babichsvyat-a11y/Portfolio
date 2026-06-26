@@ -1,19 +1,254 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>RunDNA</title>
   </head>
   <body>
     <header>
-      <h1>Portfolio</h1>
+      <img src="/media/image/logo.svg" alt="RunDNA logo" />
+      <h3>RunDNA</h3>
+      <nav>
+        <ul>
+          <li><a href="#"> skills</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">projects</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main>
-      <p>Welcome to the portfolio website.</p>
+      <section>
+        <article>
+          <p>hello, i'm</p>
+          <h1>Svyatoslav <span>Babych</span></h1>
+          <h2>nickname: RunDNA</h2>
+          <p>
+            Fulstack developer crafting<span>premium digital experiences</span>
+            with HTML, SCSS & Vanilla JS. I believe every pixel has purpose.
+          </p>
+          <a href="#"><button type="button">View Project</button></a>
+          <a href="#"><button type="button">GitHub</button></a>
+        </article>
+        <article>
+          <img src="/media/image/mainphoto.svg" alt="RunDNA photo" />
+          <p>4+</p>
+          <p>Years coding</p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Skills & Technologies</h2>
+        <p>The tools i use to bring ideas to life</p>
+        <ul>
+          <li>
+            <article>
+              <a href="#">
+                <button type="button">
+                  <img src="/media/image/html.svg" alt="HTML logo" />
+                  <h2>HTML5</h2>
+                </button>
+              </a>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <a href="#">
+                <button type="button">
+                  <img src="/media/image/css.svg" alt="CSS logo" />
+                  <h2>CSS3</h2>
+                </button>
+              </a>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <a href="#">
+                <button type="button">
+                  <img src="/media/image/js.svg" alt="SCSS logo" />
+                  <h2>SCSS/Saas</h2>
+                </button>
+              </a>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <a href="#">
+                <button type="button">
+                  <img src="/media/image/js.svg" alt="JS logo" />
+                  <h2>JavaScript</h2>
+                </button>
+              </a>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <a href="#">
+                <button type="button">
+                  <img src="/media/image/bem.svg" alt="BEM logo" />
+                  <h2>BEM</h2>
+                </button>
+              </a>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <a href="#">
+                <button type="button">
+                  <img src="/media/image/wordpress.svg" alt="WordPress logo" />
+                  <h2>WordPress</h2>
+                </button>
+              </a>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>About me</h2>
+        <p>Interactive timeline. Move the arrow.</p>
+        <h3>Born. Didn't do too much that year.</h3>
+        <input type="range" min="2004" max="2026" step="1" value="2004" />
+      </section>
+
+      <section>
+        <h2>My projects</h2>
+        <button type="button">All</button>
+        <button type="button">Full Stack</button>
+        <button type="button">Frontend</button>
+        <button type="button">Experiments</button>
+
+        <article>
+          <img src="/media/image/famfimphoto.svg" alt="FamilyFinder Photo" />
+          <h3>FamilyFinder</h3>
+          <p>
+            A secure, verified Full Stack platform connecting vetted individuals
+            with children in need, streamlining the path to adoption and family
+            creation.
+          </p>
+          <ul>
+            <li>
+              <p>HTML</p>
+            </li>
+            <li>
+              <p>SCSS</p>
+            </li>
+            <li>
+              <p>JS</p>
+            </li>
+            <li>
+              <p>Node.JS</p>
+            </li>
+            <li>
+              <p>Verification</p>
+            </li>
+          </ul>
+          <button type="button">View project</button>
+          <button type="button">GitHub</button>
+        </article>
+
+        <article>
+          <ul>
+            <li>
+              <button type="button">
+                <img src="/media/image/fflogo.svg" />
+                <p>FamilyFinder</p>
+                <p>pet project</p>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <img src="/media/image/fflogo.svg" />
+                <p>FamilyFinder</p>
+                <p>pet project</p>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <img src="/media/image/fflogo.svg" />
+                <p>FamilyFinder</p>
+                <p>pet project</p>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <img src="/media/image/fflogo.svg" />
+                <p>FamilyFinder</p>
+                <p>pet project</p>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <img src="/media/image/fflogo.svg" />
+                <p>FamilyFinder</p>
+                <p>pet project</p>
+              </button>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section>
+        <h2>Get in Touch</h2>
+        <p>
+          Fill out the form, and get i`ll get back to you within 24 hours.
+          Promise.
+        </p>
+
+        <form action="#" method="post">
+          <label for="name">name</label>
+          <input
+            type="text"
+            id="name"
+            name="user_name"
+            required
+            placeholder="John Doe"
+          />
+
+          <label for="email">email</label>
+          <input
+            type="email"
+            id="email"
+            name="user_email"
+            required
+            placeholder="john@email.com"
+          />
+
+          <label for="message">message</label>
+          <textarea
+            id="message"
+            name="user_message"
+            required
+            rows="8
+          "
+            placeholder="Tell me about your awesome project..."
+          ></textarea>
+
+          <button type="submit">send the message</button>
+        </form>
+      </section>
     </main>
+
     <footer>
-      <p>&copy; 2026</p>
+      <img src="/media/image/logo.svg" alt="RunDNA logo" />
+      <h3>RunDNA</h3>
+      <p>"Code is like DNA, but spun from our thoughts, desires and dreams"</p>
+      <nav>
+        <ul>
+          <li><a href="#"> GitHub</a></li>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </nav>
+
+      <p>&copy; 2026 RunDNA. All rights reserved. Private Policy</p>
     </footer>
   </body>
 </html>
