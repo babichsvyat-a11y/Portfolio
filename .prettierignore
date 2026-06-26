@@ -1,0 +1,14 @@
+
+.vscode/
+node_modules/
+dist/
+build/
+
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.woff2
+
+*.min.js
+*.min.css
