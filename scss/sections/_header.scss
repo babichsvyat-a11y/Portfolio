@@ -1,0 +1,48 @@
+.header{
+    &__container{
+        display: flex;
+        flex-direction: row;
+        gap:auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+        &-text{
+            color: var(--brand-accent);
+        }
+    }
+    &__nav{
+        &-list{
+        display: flex;
+        gap: 16px;
+        flex-direction: row;
+        }
+        &-link{
+            text-decoration: none;        
+        }
+        &-btn{        
+        text-transform: uppercase;
+        color: var(--simply-text);
+        padding: 4px 4px;
+        background-color: var(--background);
+        border: 0;
+        transition: 0.3s;
+         &:hover{
+            color: var(--primary-text);
+        }
+        &:focus{
+            color: var(--simply-accent);
+        }
+        &:focus-visible{
+            outline: 2px solid var(--simply-accent);
+        }
+        &:active {
+            transform: scale(0.96);
+        }
+        }       
+        }
+    }

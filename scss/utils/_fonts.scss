@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.text{
+    &__pc{
+    &-h1{
+    font-family: 'SF Pro Display';
+    font-size: 50px;
+    font-weight: 600;
+    line-height: auto;
+}
+
+&-h2{
+    font-family: 'SF Pro Display';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: auto;
+}
+
+&-h3{
+    font-family: 'SF Pro Display';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: auto;
+}
+
+&-accent{
+    font-family: 'SF Pro Display';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: auto;
+}
+&-simply{
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: auto;
+}
+
+&-small{
+    font-family: 'SF Pro Display';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: auto;
+}
+}
+&__mobile{
+    &-h1{
+    font-family: 'SF Pro Display';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: auto;
+}
+
+&-h2{
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: auto;
+}
+
+&-h3{
+    font-family: 'SF Pro Display';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: auto;
+}
+
+&-accent{
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: auto;
+}
+&-simply{
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: auto;
+}
+
+&-small{
+    font-family: 'SF Pro Display';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: auto;
+}
+}
+}
